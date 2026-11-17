@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Slicers (Cura, PrusaSlicer, BambuStudio)
+*.gcode
+*.3mf.bak
+*.curaproject
+*.gcode.gz
+
+# CAD temporary files
+*.scad.bak
+*.blend1
+*.step.bak
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
