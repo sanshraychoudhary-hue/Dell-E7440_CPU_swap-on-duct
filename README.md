@@ -1,6 +1,6 @@
-# AtiDhwani-BatDuct (अतिध्वनि) 🦇💨
+# Dell-E7440_CPU_swap-on-duct 💻💨
 
-**A high-pressure, modular, 3D-printable external fan duct and cooling enclosure for the Dell Latitude E7440 (and compatible laptops), featuring hot-swappable slide-in fan faceplates.**
+**A high-pressure, modular, 3D-printable external fan duct and cooling enclosure for the Dell Latitude E7440, featuring hot-swappable slide-in fan faceplates.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CAD: OpenSCAD](https://img.shields.io/badge/CAD-OpenSCAD-orange.svg)](https://openscad.org/)
@@ -13,14 +13,14 @@
 
 When the internal CPU blower of an ultrabook like the **Dell Latitude E7440** fails, finding an exact replacement can be difficult or expensive. Traditional "cooling pads" blow air against plastic base covers with little effect on the internal dense copper radiator fins.
 
-**AtiDhwani-BatDuct** solves this by mechanically coupling an ultra-high-pressure external fan directly to the laptop's side exhaust vent:
+**Dell-E7440_CPU_swap-on-duct** solves this by mechanically coupling an ultra-high-pressure external fan directly to the laptop's side exhaust vent:
 
 * **Compliant Spring-Clamp:** A tapered, flexible leaf-spring lip ($0.75\text{ mm}$ tip) slides over the laptop deck ($23.0\text{ mm}$ depth) and clamps the $14.0\text{ mm}$ chassis snugly without screws or adhesives.
 * **100% Hollow Thin-Wall Duct:** Aerodynamically transitions from the $58\times 10\text{ mm}$ side vent to a universal front receiver without internal choke points or wasteful solid plastic infill.
 * **Universal Slide-In Track:** Top-loading receiver slot allows **hot-swapping custom fan faceplates in 2 seconds**. Print the main laptop duct once; swap fan adapters anytime!
 * **High-RPM Server Fan Support:** Includes a custom faceplate designed specifically for the **Delta Electronics PFB0412EN-E (40x40x28mm)** high-pressure server fan (or standard 60mm fans).
 
-![AtiDhwani Engineering Overview](assets/prototype_views.png)
+![Dell E7440 Snap-On Duct Engineering Overview](assets/prototype_views.png)
 
 ---
 
@@ -44,7 +44,7 @@ When the internal CPU blower of an ultrabook like the **Dell Latitude E7440** fa
 ## 🗂️ Repository Structure
 
 ```text
-AtiDhwani-BatDuct/
+Dell-E7440_CPU_swap-on-duct/
 ├── README.md               # Main project documentation
 ├── LICENSE                 # MIT License
 ├── .gitignore              # Slicer & CAD build artifacts ignore
